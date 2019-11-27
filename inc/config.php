@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
-$username = "u852560018_twBo";
-$password = "adlasta83110";
-$database = "u852560018_twBot";
+$username = "";
+$password = "";
+$database = "";
 
 date_default_timezone_set('America/Argentina/Buenos_Aires');
 $con=mysqli_connect($servername,$username,$password,$database);
