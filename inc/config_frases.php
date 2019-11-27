@@ -7,10 +7,10 @@ $FRASES_EN_COLA = mysqli_num_rows($FRASOS);
 //
 require_once('twitteroauth.php');
 
-$consumerKey = 'l3o04CbpPqeIuNHnjXpDJhWe0';
-$consumerSecret = '7o3SwLIQuFf8Q6QpFAjJOjorDuKX6JCx5Ucffr1LA2SbYlzqWS';
-$oAuthToken     = '1155993504419631104-HnfJmeQs9RWZW6kNHyGUjYT4vdOZfb';
-$oAuthSecret    = 'XUATR1Ex78hMc0rcZv4gx3WWPaFXtizgipk0HKmhfywhs';
+$consumerKey = '';
+$consumerSecret = '';
+$oAuthToken     = '';
+$oAuthSecret    = '';
 //$tweet = new TwitterOAuth($consumerKey, $consumerSecret, $oAuthToken, $oAuthSecret);
 $tw_username = 'fumoporrobot'; 
 //------------Contar seguidores, y demás---------//
