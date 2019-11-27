@@ -1,0 +1,12 @@
+svg {
+    width: 120px;
+    height: 120px;
+    /*margin: 50px calc(100vw / 2 - 60px);
+    */visibility: hidden;
+    }
+    
+    svg path {  
+    stroke-linecap: round;
+    stroke-width: 4;
+    fill: none;
+    }
