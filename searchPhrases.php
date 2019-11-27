@@ -24,10 +24,10 @@ if(!IsAdmin($SESSION[6]))
  
 $search = "#fumoporrobot OR #fumoporro";
 $notweets = 100;
-$consumerkey = "l3o04CbpPqeIuNHnjXpDJhWe0";
-$consumersecret = "7o3SwLIQuFf8Q6QpFAjJOjorDuKX6JCx5Ucffr1LA2SbYlzqWS";
-$accesstoken = "1155993504419631104-HnfJmeQs9RWZW6kNHyGUjYT4vdOZfb";
-$accesstokensecret = "XUATR1Ex78hMc0rcZv4gx3WWPaFXtizgipk0HKmhfywhs";
+$consumerkey = "";
+$consumersecret = "";
+$accesstoken = "";
+$accesstokensecret = "";
  
 function getConnectionWithAccessToken($cons_key, $cons_secret, $oauth_token, $oauth_token_secret) {
   $connection = new TwitterOAuth($cons_key, $cons_secret, $oauth_token, $oauth_token_secret);
